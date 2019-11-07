@@ -1,29 +1,75 @@
 import React from "react"
 import { Link } from "gatsby"
+//import Image from "../components/image"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
-import Title from "../components/title"
+import TextWrapper from "../components/text-wrapper"
+import Grid from "../components/grid-wrapper"
+import GridItem from "../components/grid-item"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Deb Khan - Creative inspiration, delivering business growth differently" />
 
-    <Title background={true}>
-      My Title
-    </Title>
+    <TextWrapper margin>
+      <h1>Creative inspiration, <br /> delivering business growth differently.</h1>
+    </TextWrapper>
 
-    
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <TextWrapper margin>
+      <p>I love partnering with remarkable teams - helping them win more work, tell their story and flourish. I make work more effective and more enjoyable.</p>
+      <p>I partner with a wide range of outstanding creative companies, but they all share one thing – they recognise they need help to go to the next level. I bring what I have learned working with and alongside some outstanding organisations.</p>
+      <p>I develop skills, design solutions and unlock creativity for cultural transformation, performance and business growth.</p>
+      <p>I established my business in 1998, developing a new fast, flexible offer to drive growth, delivered with a combination of Yorkshire directness, enthusiasm and humour.</p>
+      <Link>Read more about me ></Link>
+    </TextWrapper>
+
+    <Grid>
+      <GridItem>
+        <TextWrapper>
+          <p>Guided the luxury brands Orlebar Brown, Annoushka Jewellery and Lucas Hugh to define a distinctive brand position, direction & story, one leading to acquisition by Chanel</p>
+        </TextWrapper>
+      </GridItem>
+      <GridItem>
+        <TextWrapper>
+          <p>Steered Mikhail Riches - a design driven architecture practice to win The Stirling Prize - awarded for the first 100% council house project in history</p>
+        </TextWrapper>
+      </GridItem>
+      <GridItem>
+        <TextWrapper>
+          <p>Worked with small architecture practices Tate Harmer, Cousins and Cousins, MIkhail Riches, and William Mathhews  to win competitions build spends of over £500 million - worked on the brief, the design of the narrative and the pitch and guided one to be 2019 favourite for The Stirling Prize</p>
+        </TextWrapper>
+      </GridItem>
+      <GridItem>
+        <TextWrapper>
+          <p>Taken a 3 day week role as VP Culture at Kano (present)</p>
+        </TextWrapper>
+      </GridItem>
+      <GridItem>
+        <TextWrapper>
+          <p>Trained over 500 people to present with impact, sell in ideas, network and influence</p>
+        </TextWrapper>
+      </GridItem>
+      <GridItem>
+        <TextWrapper>
+          <p>Helped the managers at King.com, makes of Candy Crush be even more effective &amp; lead conversations about performance</p>
+        </TextWrapper>
+      </GridItem>
+      <GridItem>
+        <TextWrapper>
+          <p>Written a fantastic book, She’s Back  shortlisted for CMI Management Book of the Year 2019 endorsed  by Arianna Huffington</p>
+        </TextWrapper>
+      </GridItem>      
+      <GridItem>
+        <TextWrapper>
+          <p>Supported the top global creative agency Mother to help their teams be more productive, creative & effective </p>
+        </TextWrapper>
+      </GridItem>    
+
+      
 
 
+    </Grid>
 
   </Layout>
 )
