@@ -18,6 +18,16 @@ const GlobalStyle = createGlobalStyle`
     background-color: ${theme.color.ash}; 
   }
 
+  a {
+    transition: all 0.2s linear;
+  }
+
+  a:link, a:visited {
+    color: ${theme.color.black};
+  }
+  a:hover, a:active, a:focus {
+    color: ${theme.color.hover};
+  }
 `
 
 const Layout = ({ children }) => {

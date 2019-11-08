@@ -1,8 +1,8 @@
 const color = {
   white: "#fff",
-  black: "#444",
+  black: "#333",
   ash: "#c8c6ba",
-  hover: "#fff",
+  hover: "#000",
 }
 
 const font = {
