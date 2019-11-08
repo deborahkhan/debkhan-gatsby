@@ -10,7 +10,12 @@ import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons"
 const HeaderWrap = styled.header`
   display: flex;
   justify-content: space-between;
-  padding: 4.063rem 0 1.563rem;
+  padding-bottom: 1.563rem;
+  padding-top: 2rem;
+
+  @media screen and (min-width: 576px) {
+    padding-top: 4.063rem 
+  }
 
   h1 {
    font-size: ${theme.fontSize.medium};
