@@ -11,15 +11,12 @@ import GridItem from "../components/grid-item"
 import SubTitle from "../components/subtitle"
 import styled from "styled-components"
 import theme from "../theme"
+import TextSplit from "../components/text-split"
 
 const HeadShotImg = styled(Img)`
   flex-grow: 1;
   box-shadow: ${theme.boxShadow.regular}; 
 `
-const TextSplit = styled.div`
-  display: flex;
-  justify-content: space-between;
-`;
 
 const IndexPage = ( { data } ) => (
   <Layout>
@@ -147,10 +144,10 @@ const IndexPage = ( { data } ) => (
 
     <TextSplit>
       <SubTitle>
-        <Link to="">Kind Words:</Link>
+        <Link to="kind-words">Kind Words:</Link>
       </SubTitle>
 
-      <Link to="">More kind Words ></Link>
+      <Link to="kind-words">More kind Words ></Link>
     </TextSplit>
 
     <SplitWrapper margin>

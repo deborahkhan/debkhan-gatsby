@@ -11,8 +11,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import theme from "../theme"
 import TextWrapper from "../components/text-wrapper"
-
 import { createGlobalStyle } from "styled-components"
+import styled from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -29,6 +29,11 @@ const GlobalStyle = createGlobalStyle`
   a:hover, a:active, a:focus {
     color: ${theme.color.hover};
   }
+`
+const SiteFooter = styled.footer`
+  margin: 3.75rem 0;
+  display: flex;
+  justify-content: space-between;
 `
 
 const Layout = ({ children }) => {
@@ -59,11 +64,16 @@ const Layout = ({ children }) => {
         </TextWrapper>
 
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <SiteFooter>
+          
+            <small>
+              &copy; {new Date().getFullYear()} {data.site.siteMetadata.title}
+            </small>
+            <small>
+              Site by <a rel="noopener noreferrer" target="_blank" href="https://backtofront.co">Back to Front</a>
+            </small>
+          
+        </SiteFooter>
       </div>
     </>
   )
