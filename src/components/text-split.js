@@ -1,7 +1,10 @@
 import styled from "styled-components"
 
 export default styled.div `
-  display: flex;
-  justify-content: space-between;
+  
+  @media screen and (min-width: 576px) {
+    display: flex;
+    justify-content: space-between;
+  }
 
 `
