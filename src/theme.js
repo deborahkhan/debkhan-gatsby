@@ -14,6 +14,11 @@ const columnGap = {
   small: "1rem",
 }
 
+const mediaQuery = {
+  small: "768px",
+  large: "1070px",
+}
+
 const fontSize = {
   xlarge: "2.5rem", // 40px
   large: "1.625rem", // 26px
@@ -31,5 +36,6 @@ export default {
   font,
   fontSize,
   boxShadow,
-  columnGap
+  columnGap,
+  mediaQuery
 }

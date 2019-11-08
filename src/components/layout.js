@@ -13,6 +13,7 @@ import theme from "../theme"
 import TextWrapper from "../components/text-wrapper"
 import { createGlobalStyle } from "styled-components"
 import styled from "styled-components"
+import TextSplit from "../components/text-split"
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -33,8 +34,10 @@ const GlobalStyle = createGlobalStyle`
 `
 const SiteFooter = styled.footer`
   margin: 3.75rem 0;
-  display: flex;
-  justify-content: space-between;
+
+  small {
+    display: block;
+  }
 `
 
 const Layout = ({ children }) => {
@@ -66,13 +69,15 @@ const Layout = ({ children }) => {
 
         <main>{children}</main>
         
-        <SiteFooter>          
-          <small>
-            &copy; {new Date().getFullYear()} {data.site.siteMetadata.title}
-          </small>
-          <small>
-            Site by <a rel="noopener noreferrer" target="_blank" href="https://backtofront.co">Back to Front</a>
-          </small>  
+        <SiteFooter>
+          <TextSplit>
+            <small>
+              &copy; {new Date().getFullYear()} {data.site.siteMetadata.title}
+            </small>
+            <small>
+              Site by <a rel="noopener noreferrer" target="_blank" href="https://backtofront.co">Back to Front</a>
+            </small>  
+          </TextSplit>
         </SiteFooter>
 
       </div>
