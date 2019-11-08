@@ -16,7 +16,8 @@ import styled from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
   body {
-    background-color: ${theme.color.ash}; 
+    background-color: ${theme.color.ash};
+    padding: 0 30px;
   }
 
   a {
@@ -64,17 +65,18 @@ const Layout = ({ children }) => {
         </TextWrapper>
 
         <main>{children}</main>
-        <SiteFooter>
-          
-            <small>
-              &copy; {new Date().getFullYear()} {data.site.siteMetadata.title}
-            </small>
-            <small>
-              Site by <a rel="noopener noreferrer" target="_blank" href="https://backtofront.co">Back to Front</a>
-            </small>
-          
+        
+        <SiteFooter>          
+          <small>
+            &copy; {new Date().getFullYear()} {data.site.siteMetadata.title}
+          </small>
+          <small>
+            Site by <a rel="noopener noreferrer" target="_blank" href="https://backtofront.co">Back to Front</a>
+          </small>  
         </SiteFooter>
+
       </div>
+      
     </>
   )
 }

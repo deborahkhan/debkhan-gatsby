@@ -14,7 +14,6 @@ const KindWords = () => (
       Kind words
     </SubTitle>
 
-
     <Grid>
       <GridItem>
         <TextWrapper>
@@ -33,7 +32,7 @@ const KindWords = () => (
           </blockquote>          
         </TextWrapper>
       </GridItem>
-      
+
       <GridItem>
         <TextWrapper>
           <blockquote>
