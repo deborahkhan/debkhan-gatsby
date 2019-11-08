@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import theme from "../theme"
+import TextWrapper from "../components/text-wrapper"
 
 import { createGlobalStyle } from "styled-components"
 
@@ -52,6 +53,11 @@ const Layout = ({ children }) => {
         }}
       >
         <Header siteTitle={data.site.siteMetadata.title} />
+
+        <TextWrapper margin>
+          <h1>Creative inspiration, <br /> delivering business growth differently.</h1>
+        </TextWrapper>
+
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with

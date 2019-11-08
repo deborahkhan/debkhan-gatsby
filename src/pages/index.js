@@ -25,10 +25,6 @@ const IndexPage = ( { data } ) => (
   <Layout>
     <SEO title="Deb Khan - Creative inspiration, delivering business growth differently" />
 
-    <TextWrapper margin>
-      <h1>Creative inspiration, <br /> delivering business growth differently.</h1>
-    </TextWrapper>
-
     <SubTitle>
       What I do:
     </SubTitle>
@@ -40,7 +36,7 @@ const IndexPage = ( { data } ) => (
           <p>I partner with a wide range of outstanding creative companies, but they all share one thing – they recognise they need help to go to the next level. I bring what I have learned working with and alongside some outstanding organisations.</p>
           <p>I develop skills, design solutions and unlock creativity for cultural transformation, performance and business growth.</p>
           <p>I established my business in 1998, developing a new fast, flexible offer to drive growth, delivered with a combination of Yorkshire directness, enthusiasm and humour.</p>
-          <Link>Read more about me ></Link>
+          <Link to="about-me">Read more about me ></Link>
         </TextWrapper>
       </SplitItem>
       <SplitItem flexHeight>
