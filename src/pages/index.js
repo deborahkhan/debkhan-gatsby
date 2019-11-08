@@ -174,7 +174,17 @@ const IndexPage = ( { data } ) => (
           </blockquote>
         </TextWrapper>
       </SplitItem>        
-    </SplitWrapper>    
+    </SplitWrapper>   
+
+    <SubTitle>
+      Clients include:
+    </SubTitle>
+
+
+    
+
+
+
 
   </Layout>
 )
@@ -190,6 +200,8 @@ export const query = graphql`
       }
     }              
   } 
+
+  
 `
 
 export default IndexPage
