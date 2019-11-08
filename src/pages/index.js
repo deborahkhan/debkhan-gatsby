@@ -1,14 +1,23 @@
 import React from "react"
 import { Link } from "gatsby"
-//import Image from "../components/image"
-
+import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import TextWrapper from "../components/text-wrapper"
+import SplitWrapper from "../components/split-wrapper"
+import SplitItem from "../components/split-item"
 import Grid from "../components/grid-wrapper"
 import GridItem from "../components/grid-item"
+import SubTitle from "../components/subtitle"
+import styled from "styled-components"
+import theme from "../theme"
 
-const IndexPage = () => (
+const HeadShotImg = styled(Img)`
+  flex-grow: 1;
+  box-shadow: ${theme.boxShadow.regular}; 
+`
+
+const IndexPage = ( { data } ) => (
   <Layout>
     <SEO title="Deb Khan - Creative inspiration, delivering business growth differently" />
 
@@ -16,13 +25,35 @@ const IndexPage = () => (
       <h1>Creative inspiration, <br /> delivering business growth differently.</h1>
     </TextWrapper>
 
-    <TextWrapper margin>
-      <p>I love partnering with remarkable teams - helping them win more work, tell their story and flourish. I make work more effective and more enjoyable.</p>
-      <p>I partner with a wide range of outstanding creative companies, but they all share one thing – they recognise they need help to go to the next level. I bring what I have learned working with and alongside some outstanding organisations.</p>
-      <p>I develop skills, design solutions and unlock creativity for cultural transformation, performance and business growth.</p>
-      <p>I established my business in 1998, developing a new fast, flexible offer to drive growth, delivered with a combination of Yorkshire directness, enthusiasm and humour.</p>
-      <Link>Read more about me ></Link>
-    </TextWrapper>
+    <SubTitle>
+      What I do:
+    </SubTitle>
+
+    <SplitWrapper margin>
+      <SplitItem>
+        <TextWrapper>
+          <p>I love partnering with remarkable teams - helping them win more work, tell their story and flourish. I make work more effective and more enjoyable.</p>
+          <p>I partner with a wide range of outstanding creative companies, but they all share one thing – they recognise they need help to go to the next level. I bring what I have learned working with and alongside some outstanding organisations.</p>
+          <p>I develop skills, design solutions and unlock creativity for cultural transformation, performance and business growth.</p>
+          <p>I established my business in 1998, developing a new fast, flexible offer to drive growth, delivered with a combination of Yorkshire directness, enthusiasm and humour.</p>
+          <Link>Read more about me ></Link>
+        </TextWrapper>
+      </SplitItem>
+      <SplitItem>
+        <HeadShotImg
+          fluid={data.imgHeadshot.childImageSharp.fluid}
+          alt="Deb Khan"
+        />
+      </SplitItem>
+    </SplitWrapper>
+
+
+
+
+
+    <SubTitle>
+      In the last 3 years I have:      
+    </SubTitle>
 
     <Grid>
       <GridItem>
@@ -73,5 +104,18 @@ const IndexPage = () => (
 
   </Layout>
 )
+
+
+export const query = graphql`
+  query {  
+    imgHeadshot: file(relativePath: { eq: "deb_khan_headhsot.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 517) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }              
+  } 
+`
 
 export default IndexPage

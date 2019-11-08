@@ -9,6 +9,11 @@ const font = {
   regular: `'Roboto Mono', monospace`,
 }
 
+const columnGap = {
+  regular: "2rem",
+  small: "1rem",
+}
+
 const fontSize = {
   xlarge: "2.5rem", // 40px
   large: "1.625rem", // 26px
@@ -25,5 +30,6 @@ export default {
   color,
   font,
   fontSize,
-  boxShadow
+  boxShadow,
+  columnGap
 }

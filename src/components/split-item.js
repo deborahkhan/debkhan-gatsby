@@ -2,6 +2,7 @@ import styled from "styled-components"
 import theme from "../theme"
 
 export default styled.div `
-  columns: 2;
-  column-gap: ${theme.columnGap.regular};
+  display: flex;
+  flex: 1 0 45%;
+  margin: 0 ${theme.columnGap.small};
 `
