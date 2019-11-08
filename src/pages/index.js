@@ -16,6 +16,10 @@ const HeadShotImg = styled(Img)`
   flex-grow: 1;
   box-shadow: ${theme.boxShadow.regular}; 
 `
+const TextSplit = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
 
 const IndexPage = ( { data } ) => (
   <Layout>
@@ -39,7 +43,7 @@ const IndexPage = ( { data } ) => (
           <Link>Read more about me ></Link>
         </TextWrapper>
       </SplitItem>
-      <SplitItem>
+      <SplitItem flexHeight>
         <HeadShotImg
           fluid={data.imgHeadshot.childImageSharp.fluid}
           alt="Deb Khan"
@@ -141,11 +145,36 @@ const IndexPage = ( { data } ) => (
         <TextWrapper>
           <p>Featured as a writer for GQ (UK) and Strategy+Business (global)</p>
         </TextWrapper>
-      </GridItem>                                                                              
+      </GridItem>
       
-
-
     </Grid>
+
+    <TextSplit>
+      <SubTitle>
+        <Link to="">Kind Words:</Link>
+      </SubTitle>
+
+      <Link to="">More kind Words ></Link>
+    </TextSplit>
+
+    <SplitWrapper margin>
+      <SplitItem>
+        <TextWrapper>
+          <blockquote>
+            <p>"I relished working with Deb to create a bespoke training approach for Mother targeting our two big asks around productivity and negotiation skills, or as we called them, getting shit done and getting your way. My delight continued throughout the training itself; Deb is dynamic, inspiring yet very firm and brought the best out of everyone in each session. From a personal perspective, Deb and her She’s Back work are an inspiration to me and Mother - we’ve been delighted to support her and Lisa here too."</p>
+            <cite>Katie Mackay-Sinclair<br />Partner, Mother London</cite>
+          </blockquote>
+        </TextWrapper>
+      </SplitItem>
+      <SplitItem>
+        <TextWrapper>
+          <blockquote>
+            <p>"We worked with Deb for many years, as Zone grew from a small creative agency to become the biggest independent digital specialist in the UK.  As we grew, our people needed to grow too – and Deb helped us build several generations of managers with the skills to navigate that change.  Deb’s training and coaching received great feedback from participants over many years, and undoubtedly helped us retain talent in a highly competitive market"</p>
+            <cite>Jon Davie <br />Chief Client Officer, Zone</cite>
+          </blockquote>
+        </TextWrapper>
+      </SplitItem>        
+    </SplitWrapper>    
 
   </Layout>
 )

@@ -23,6 +23,12 @@ const typography = new Typography({
     'p:last-child': {
       marginBottom: 0,
     },
+    blockquote: {
+      margin: 0,
+    },
+    cite: {
+      fontWeight: 300,
+    },
   }),  
 })
 
