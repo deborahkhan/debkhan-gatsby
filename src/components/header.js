@@ -1,34 +1,63 @@
+import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import styled from "styled-components"
+import theme from "../theme"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons"
+
+const HeaderWrap = styled.header`
+  display: flex;
+  justify-content: space-between;
+  padding: 4.063rem 0 1.563rem;
+
+  h1 {
+   font-size: ${theme.fontSize.medium};
+    margin: 0;
+  }
+`;
+
+const LinksList = styled.ul`
+  list-style: none;
+  margin: 0;
+  
+  li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+`;
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
+
+  <HeaderWrap>
+
+    <h1>
+      <Link to="/">
+        {siteTitle}
+      </Link>
+    </h1>
+
+    <LinksList>
+      <li>
+        <Link to="">
+          <FontAwesomeIcon icon={faEnvelope} />
         </Link>
-      </h1>
-    </div>
-  </header>
+      </li>
+      <li>
+        <Link to="">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </Link>
+      </li>
+      <li>
+        <Link to="">
+          <FontAwesomeIcon icon={faTwitter} />
+        </Link>
+      </li>
+    </LinksList>
+    
+  </HeaderWrap>
+
 )
 
 Header.propTypes = {
