@@ -51,7 +51,7 @@ const IndexPage = ( { data } ) => (
       In the last 3 years I have:      
     </SubTitle>
 
-    <Grid>
+    <Grid margin>
 
       <GridItem>
         <TextWrapper>
