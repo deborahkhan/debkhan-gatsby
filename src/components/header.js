@@ -45,19 +45,19 @@ const Header = ({ siteTitle }) => (
 
     <LinksList>
       <li>
-        <Link to="">
+        <a rel="noopener noreferrer" target="_blank" href="mailto:">
           <FontAwesomeIcon icon={faEnvelope} />
-        </Link>
+        </a>
       </li>
       <li>
-        <Link to="">
+        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/deborah-khan-8b349014/">
           <FontAwesomeIcon icon={faLinkedin} />
-        </Link>
+        </a>
       </li>
       <li>
-        <Link to="">
+        <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/debkhan">
           <FontAwesomeIcon icon={faTwitter} />
-        </Link>
+        </a>
       </li>
     </LinksList>
     
