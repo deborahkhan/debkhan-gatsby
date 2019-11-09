@@ -8,7 +8,10 @@ import GridItem from "../components/grid-item"
 
 const KindWords = () => (
   <Layout>
-    <SEO title="Kind Words" />
+    <SEO 
+      title="Kind Words" 
+      description="Clients from Mother, Mikhail Riches and Facebook tell their stories about working with Deb Khan"
+    />
 
     <SubTitle>
       Kind words
@@ -28,7 +31,7 @@ const KindWords = () => (
         <TextWrapper>
           <blockquote>
             <p>"I always thought that Deb Khan was our secret weapon, giving us the edge over our competitors and helping us win work. I’m loathe to give her a good review in case everyone else finds out how completely brilliant she is."</p>
-            <cite>Annalie Riches <br />Founder, MIkhail Riches</cite>
+            <cite>Annalie Riches <br />Founder, Mikhail Riches</cite>
           </blockquote>          
         </TextWrapper>
       </GridItem>
@@ -52,12 +55,6 @@ const KindWords = () => (
       </GridItem>
 
     </Grid>
-
-
-
-
-
-
 
   </Layout>
 )

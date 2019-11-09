@@ -6,7 +6,10 @@ import TextWrapper from "../components/text-wrapper"
 
 const AboutMe = () => (
   <Layout>
-    <SEO title="About me" />
+    <SEO
+      title="About me" 
+      description="I combine creative and strategic thinking, writing, training, coaching, communications, storytelling, film making, PR, marketing and facilitation"
+    />
 
     <SubTitle>
       About me

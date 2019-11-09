@@ -20,7 +20,10 @@ const HeadShotImg = styled(Img)`
 
 const IndexPage = ( { data } ) => (
   <Layout>
-    <SEO title="Deb Khan - Creative inspiration, delivering business growth differently" />
+    <SEO 
+      title="Deb Khan - Creative inspiration, delivering business growth differently" 
+      description="I love partnering with remarkable teams - helping them win more work, tell their story and flourish"
+    />
 
     <SubTitle>
       What I do:
