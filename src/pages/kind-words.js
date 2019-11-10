@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import TextWrapper from "../components/text-wrapper"
 import Grid from "../components/grid-wrapper"
 import GridItem from "../components/grid-item"
+import Logos from "../components/logos"
 
 const KindWords = () => (
   <Layout>
@@ -17,7 +18,7 @@ const KindWords = () => (
       Kind words
     </SubTitle>
 
-    <Grid>
+    <Grid margin>
       <GridItem>
         <TextWrapper>
           <blockquote>
@@ -55,6 +56,8 @@ const KindWords = () => (
       </GridItem>
 
     </Grid>
+
+    <Logos />
 
   </Layout>
 )

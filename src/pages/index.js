@@ -12,6 +12,7 @@ import SubTitle from "../components/subtitle"
 import styled from "styled-components"
 import theme from "../theme"
 import TextSplit from "../components/text-split"
+import Logos from "../components/logos"
 
 const HeadShotImg = styled(Img)`
   flex-grow: 1;
@@ -169,22 +170,13 @@ const IndexPage = ( { data } ) => (
             <cite>Jon Davie <br />Chief Client Officer, Zone</cite>
           </blockquote>
         </TextWrapper>
-      </SplitItem>        
-    </SplitWrapper>   
+      </SplitItem>
+    </SplitWrapper>
 
-    <SubTitle>
-      Clients include:
-    </SubTitle>
-
-
-    
-
-
-
+    <Logos />
 
   </Layout>
 )
-
 
 export const query = graphql`
   query {  
@@ -194,9 +186,8 @@ export const query = graphql`
           ...GatsbyImageSharpFluid
         }
       }
-    }              
+    }
   } 
-
   
 `
 
