@@ -11,15 +11,15 @@ const LogoWrap = styled.div`
   grid-template-columns: repeat(1, 1fr);
 
   @media screen and (min-width: 400px) and (max-width: 599px) {
-    grid-template-columns: repeat(2, 1fr);    
+    grid-template-columns: repeat(2, 1fr);
   }
 
   @media screen and (min-width: 600px) and (max-width: 899px) {
-    grid-template-columns: repeat(4, 1fr);    
+    grid-template-columns: repeat(4, 1fr);
   }
 
   @media screen and (min-width: 900px) {
-    grid-template-columns: repeat(6, 1fr);    
+    grid-template-columns: repeat(6, 1fr);
   }
 `;
 
@@ -45,7 +45,7 @@ const Logos = () => (
       <div>
 
         <SubTitle>
-          Clients include:
+          Clients include
         </SubTitle>
 
         <TextWrapper>

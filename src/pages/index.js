@@ -27,7 +27,7 @@ const IndexPage = ( { data } ) => (
     />
 
     <SubTitle>
-      What I do:
+      What I do
     </SubTitle>
 
     <SplitWrapper margin>
@@ -49,50 +49,50 @@ const IndexPage = ( { data } ) => (
     </SplitWrapper>
 
     <SubTitle>
-      In the last 3 years I have:      
+      In the last 3 years I have
     </SubTitle>
 
     <Grid margin>
 
       <GridItem>
         <TextWrapper>
-          <p>Guided the luxury brands Orlebar Brown, Annoushka Jewellery and Lucas Hugh to define a distinctive brand position, direction &amp; story, one leading to acquisition by Chanel</p>
+          <p>Guided the luxury brands Orlebar Brown, Annoushka Jewellery and Lucas Hugh to define a distinctive brand position, direction and story, one leading to acquisition by Chanel</p>
         </TextWrapper>
       </GridItem>
 
       <GridItem>
         <TextWrapper>
-          <p>Worked with small architecture practices Tate Harmer, Cousins and Cousins, MIkhail Riches, and William Mathhews  to win competitions build spends of over £500 million - worked on the brief, the design of the narrative and the pitch and guided one to be 2019 favourite for The Stirling Prize</p>
+          <p>Worked with small architecture practices Tate Harmer, Cousins and Cousins, Mikhail Riches, and William Mathhew to win competitions build spends of over £300 million - worked on the brief, the design of the narrative and the pitch and guided one to be 2019 favourite for The Stirling Prize</p>
         </TextWrapper>
       </GridItem>
 
       <GridItem>
         <TextWrapper>
-          <p>Helped the managers at King.com, makes of Candy Crush be even more effective &amp; lead conversations about performance</p>
+          <p>Helped the managers at King.com, makers of Candy Crush be even more effective and lead conversations about performance</p>
         </TextWrapper>
       </GridItem>
 
       <GridItem>
         <TextWrapper>
-          <p>Supported the top global creative agency Mother to help their teams be more productive, creative &amp; effective </p>
+          <p>Supported the top global creative agency Mother to help their teams be more productive, creative and effective </p>
         </TextWrapper>
       </GridItem>
 
       <GridItem>
         <TextWrapper>
-          <p>Steered Parkinson’s UK to lead with rigour &amp; purpose though a change management programme</p>
+          <p>Steered Parkinson’s UK to lead with rigour and purpose though a change management programme</p>
         </TextWrapper>
       </GridItem>
 
       <GridItem>
         <TextWrapper>
-          <p>Designed a comms plan for innovative mixed use building scheme in London including a new church, secondary school, shops &amp; 150 new homes</p>
+          <p>Designed a comms plan for innovative mixed use building scheme in London including a new church, secondary school, shops and 150 new homes</p>
         </TextWrapper>
       </GridItem>
 
       <GridItem>
         <TextWrapper>
-          <p>Cycled 5600m from Siena to Rome in 3 days 50 senior women in the property industry and raised over £2500 for Coram Foundation  </p>
+          <p>Cycled 5600m from Siena to Rome in 3 days 50 senior women in the property industry and raised over £2500 for Coram Foundation</p>
         </TextWrapper>
       </GridItem>
 
@@ -104,7 +104,7 @@ const IndexPage = ( { data } ) => (
 
       <GridItem>
         <TextWrapper>
-          <p>Taken a 3 day week role as VP Culture at Kano (present)</p>
+          <p>Taken a 3 day week global role as VP Culture at Kano (present)</p>
         </TextWrapper>
       </GridItem>
 
@@ -116,25 +116,25 @@ const IndexPage = ( { data } ) => (
 
       <GridItem>
         <TextWrapper>
-          <p>Written a fantastic book, She’s Back shortlisted for CMI Management Book of the Year 2019 endorsed  by Arianna Huffington</p>
+          <p>Written a fantastic book, <a rel="noopener noreferrer" target="_blank" href="https://www.shesback.co.uk/">She's Back</a>, shortlisted for CMI Management Book of the Year 2019 endorsed  by Arianna Huffington</p>
         </TextWrapper>
       </GridItem>
 
       <GridItem>
         <TextWrapper>
-          <p>Shaped wow comms by designing effective newsletters, events, films &amp;  copy including for design firms, structural engineers and charotes</p>
+          <p>Shaped wow comms by designing effective newsletters, events, films and copy including for design firms, structural engineers and charotes</p>
         </TextWrapper>
       </GridItem>
 
       <GridItem>
         <TextWrapper>
-          <p>Designed &amp; delivered effective, practical management learning &amp; development programmes for a data company &amp; a digital ad agency </p>
+          <p>Designed and delivered effective, practical management learning and development programmes for a data company and a digital ad agency</p>
         </TextWrapper>
       </GridItem>
 
       <GridItem>
         <TextWrapper>
-          <p>Partnered with The International School of the Year British School Muscat to deliver a growth plan</p>
+          <p>Partnered with The International School of the Year, The British School Muscat to deliver a growth plan over two years</p>
         </TextWrapper>
       </GridItem>
 
@@ -148,7 +148,7 @@ const IndexPage = ( { data } ) => (
 
     <TextSplit>
       <SubTitle>
-        <Link to="kind-words">Kind Words:</Link>
+        <Link to="kind-words">Kind Words</Link>
       </SubTitle>
 
       <Link to="kind-words">More kind Words ></Link>
@@ -179,7 +179,7 @@ const IndexPage = ( { data } ) => (
 )
 
 export const query = graphql`
-  query {  
+  query {
     imgHeadshot: file(relativePath: { eq: "deb_khan_headhsot.jpg" }) {
       childImageSharp {
         fluid(maxWidth: 517) {

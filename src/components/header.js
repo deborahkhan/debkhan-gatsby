@@ -45,7 +45,7 @@ const Header = ({ siteTitle }) => (
 
     <LinksList>
       <li>
-        <a rel="noopener noreferrer" target="_blank" href="mailto:">
+        <a rel="noopener noreferrer" target="_blank" href="mailto:deb@debkhan.co.uk">
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
       </li>

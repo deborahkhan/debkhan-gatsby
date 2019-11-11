@@ -33,7 +33,7 @@ const KindWords = () => (
           <blockquote>
             <p>"I always thought that Deb Khan was our secret weapon, giving us the edge over our competitors and helping us win work. I’m loathe to give her a good review in case everyone else finds out how completely brilliant she is."</p>
             <cite>Annalie Riches <br />Founder, Mikhail Riches</cite>
-          </blockquote>          
+          </blockquote>
         </TextWrapper>
       </GridItem>
 
@@ -42,7 +42,7 @@ const KindWords = () => (
           <blockquote>
             <p>"We worked with Deb for many years, as Zone grew from a small creative agency to become the biggest independent digital specialist in the UK.  As we grew, our people needed to grow too – and Deb helped us build several generations of managers with the skills to navigate that change.  Deb’s training and coaching received great feedback from participants over many years, and undoubtedly helped us retain talent in a highly competitive market"</p>
             <cite>Jon Davie <br />Chief Client Officer, Zone</cite>
-          </blockquote>          
+          </blockquote>
         </TextWrapper>
       </GridItem>
 
@@ -51,7 +51,7 @@ const KindWords = () => (
           <blockquote>
             <p>"Deb is a rock star! If you're lucky enough that your paths cross you'll leave enriched and empowered to create an even bigger and better things."</p>
             <cite>Alastair Cotterill <br />Creative Product Strategist, Facebook</cite>
-          </blockquote>          
+          </blockquote>
         </TextWrapper>
       </GridItem>
 
