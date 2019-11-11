@@ -65,7 +65,7 @@ const Layout = ({ children }) => {
         <Header siteTitle={data.site.siteMetadata.title} />
 
         <TextWrapper margin padded>
-          <h1>Creative inspiration, <br /> delivering business growth differently.</h1>
+          <h1>Creative inspiration,<br />delivering business growth differently.</h1>
         </TextWrapper>
 
         <main>{children}</main>

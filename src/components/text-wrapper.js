@@ -14,7 +14,11 @@ export default styled.div `
 
   h1 {
     margin-bottom: 0;
-    letter-spacing: 1px;
     line-height: 1.4;
+    letter-spacing: 1px;
+    
+    @media screen and (max-width: 575px) {
+      font-size: ${theme.fontSize.medium};
+    }
   }
 `
