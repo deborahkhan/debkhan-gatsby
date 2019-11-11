@@ -8,11 +8,7 @@ import SubTitle from "../components/subtitle"
 const LogoWrap = styled.div`
   display: grid;
   grid-gap: 10px 40px;
-  grid-template-columns: repeat(1, 1fr);
-
-  @media screen and (min-width: 400px) and (max-width: 599px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  grid-template-columns: repeat(2, 1fr);
 
   @media screen and (min-width: 600px) and (max-width: 899px) {
     grid-template-columns: repeat(4, 1fr);
