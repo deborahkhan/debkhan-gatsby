@@ -29,7 +29,7 @@ const LinksList = styled.ul`
   
   li {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 16px;
   }
 `;
 
@@ -50,13 +50,13 @@ const Header = ({ siteTitle }) => (
         </a>
       </li>
       <li>
-        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/deborah-khan-8b349014/">
-          <FontAwesomeIcon icon={faLinkedin} />
-        </a>
-      </li>
-      <li>
         <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/debkhan">
           <FontAwesomeIcon icon={faTwitter} />
+        </a>
+      </li>      
+      <li>
+        <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/deborah-khan-8b349014/">
+          <FontAwesomeIcon icon={faLinkedin} />
         </a>
       </li>
     </LinksList>
