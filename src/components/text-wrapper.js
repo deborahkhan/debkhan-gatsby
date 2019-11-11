@@ -14,5 +14,7 @@ export default styled.div `
 
   h1 {
     margin-bottom: 0;
+    letter-spacing: 1px;
+    line-height: 1.4;
   }
 `
