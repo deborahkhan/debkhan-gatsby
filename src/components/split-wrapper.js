@@ -9,6 +9,6 @@ export default styled.div `
     margin-right: -${theme.columnGap.small};
   }
 
-  margin-bottom: ${props => props.margin ? "3.75rem" : "0"};
+  margin-bottom: ${props => props.margin ? "5.75rem" : "0"};
 
 `

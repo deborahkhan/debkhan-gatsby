@@ -9,7 +9,7 @@ export default styled.div `
   padding: 1.688rem;
   background-color: ${theme.color.white}; 
   box-shadow: ${theme.boxShadow.regular}; 
-  margin-bottom: ${props => props.margin ? "3.75rem" : "0"};
+  margin-bottom: ${props => props.margin ? "5.75rem" : "0"};
   max-width: ${props => props.shorter ? "815px" : "100%"};
 
   h1 {
