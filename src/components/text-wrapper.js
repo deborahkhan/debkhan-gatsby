@@ -2,12 +2,11 @@ import styled from "styled-components"
 import theme from "../theme"
 
 export default styled.div `
-
-  @media (min-width: 576px) {
-    padding: 2.5rem;    
+  @media screen and (min-width: 576px) {
+    padding: ${props => props.padded ? "2.5rem" : "1.688rem"};
   }
 
-  padding: 1.5rem;
+  padding: 1.688rem;
   background-color: ${theme.color.white}; 
   box-shadow: ${theme.boxShadow.regular}; 
   margin-bottom: ${props => props.margin ? "3.75rem" : "0"};
