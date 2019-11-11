@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Deb Khan`,
-    description: ``,
-    author: `@gatsbyjs`,
+    description: `Creative inspiration, delivering business growth differently`,
+    author: `@debkhan`,
+    siteUrl: `https://debkhan.com`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -19,9 +20,10 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
-    },    
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
