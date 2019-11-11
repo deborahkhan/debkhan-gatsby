@@ -14,6 +14,7 @@ import TextWrapper from "../components/text-wrapper"
 import { createGlobalStyle } from "styled-components"
 import styled from "styled-components"
 import TextSplit from "../components/text-split"
+import "@fortawesome/fontawesome-svg-core/styles.css"
 
 const GlobalStyle = createGlobalStyle`
   body {
