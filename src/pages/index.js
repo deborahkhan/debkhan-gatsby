@@ -62,13 +62,13 @@ const IndexPage = ( { data } ) => (
 
       <GridItem>
         <TextWrapper>
-          <p>Worked with small architecture practices Tate Harmer, Cousins and Cousins, Mikhail Riches, and William Mathhew to win competitions build spends of over £300 million - worked on the brief, the design of the narrative and the pitch and guided one to be 2019 favourite for The Stirling Prize</p>
+          <p>Worked with architect practices Tate Harmer, Cousins and Cousins, Mikhail Riches and William Matthews to win competitions build spends of over £300 million - worked on the brief, the design of the narrative and the pitch and guided one to be 2019 favourite for The Stirling Prize</p>
         </TextWrapper>
       </GridItem>
 
       <GridItem>
         <TextWrapper>
-          <p>Helped the managers at King.com, makers of Candy Crush be even more effective and lead conversations about performance</p>
+          <p>Helped the managers at King.com, makers of Candy Crush be even more effective and lead conversations about performance working across four countries</p>
         </TextWrapper>
       </GridItem>
 
@@ -116,13 +116,13 @@ const IndexPage = ( { data } ) => (
 
       <GridItem>
         <TextWrapper>
-          <p>Written a fantastic book, <a rel="noopener noreferrer" target="_blank" href="https://www.shesback.co.uk/">She's Back</a>, shortlisted for CMI Management Book of the Year 2019 endorsed  by Arianna Huffington</p>
+          <p>Written a fantastic book, <a rel="noopener noreferrer" target="_blank" href="https://www.amazon.co.uk/Shes-Back-Your-guide-returning/dp/1911583565">She's Back</a>, shortlisted for CMI Management Book of the Year 2019 endorsed by Arianna Huffington</p>
         </TextWrapper>
       </GridItem>
 
       <GridItem>
         <TextWrapper>
-          <p>Shaped wow comms by designing effective newsletters, events, films and copy including for design firms, structural engineers and charotes</p>
+          <p>Shaped wow comms by designing effective newsletters, events, films and copy including for design firms, structural engineers and charites</p>
         </TextWrapper>
       </GridItem>
 
