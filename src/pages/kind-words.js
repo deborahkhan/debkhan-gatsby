@@ -67,15 +67,6 @@ const KindWords = () => (
       <GridItem>
         <TextWrapper>
           <blockquote>
-            <p>"Debs is a seriously clever and kind hearted professional. She has an amazing T shaped creative personality with a love of getting the best out of people and varied experience in everything from the theatre to business consultancy. We've worked with her to help build bridges between teams, presentation training to chairing management workshops."</p>
-            <cite>Jason Goodman<br />Investor &amp; CEO, eastnine</cite>
-          </blockquote>
-        </TextWrapper>
-      </GridItem>
-
-      <GridItem>
-        <TextWrapper>
-          <blockquote>
             <p>"I'm a big fan of Debs... She is super smart, highly articulate and fiercely creative. She is also warm hearted, open and honest. A Brilliant and rare combination. If you're reading this wondering whether you should hire her - just do it - you won't regret it (we didn't)!"</p>
             <cite>Jaimes Leggett<br /> Group CEO, M&amp;C Saatchi</cite>
           </blockquote>

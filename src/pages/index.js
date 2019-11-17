@@ -18,6 +18,21 @@ const HeadShotImg = styled(Img)`
   flex-grow: 1;
   box-shadow: ${theme.boxShadow.regular}; 
 `
+const MobileKindWords = styled.div`
+
+  margin-bottom: 3.75rem;
+  margin-top: -3rem;
+
+  @media screen and (min-width: 1000px) {
+      display: none;
+    }
+`
+
+const KindWords = styled.div`
+  @media screen and (max-width: 999px) {
+      display: none;
+    }
+`
 
 const IndexPage = ( { data } ) => (
   <Layout>
@@ -122,7 +137,7 @@ const IndexPage = ( { data } ) => (
 
       <GridItem>
         <TextWrapper>
-          <p>Shaped wow comms by designing effective newsletters, events, films and copy including for design firms, structural engineers and charites</p>
+          <p>Shaped wow comms by creating films, newsletters, and events including a <a rel="noopener noreferrer" target="_blank" href="http://www.mikhailriches.com/">practice film for Mikhail Riches</a> and this <a href="https://www.youtube.com/watch?v=zGHfzvcA8iQ">animation for She's Back</a></p>
         </TextWrapper>
       </GridItem>
 
@@ -151,7 +166,9 @@ const IndexPage = ( { data } ) => (
         <Link to="kind-words">Kind Words</Link>
       </SubTitle>
 
-      <Link to="kind-words">More kind Words ></Link>
+      <KindWords>
+        <Link to="kind-words">More kind Words ></Link>
+      </KindWords>
     </TextSplit>
 
     <SplitWrapper margin>
@@ -172,6 +189,10 @@ const IndexPage = ( { data } ) => (
         </TextWrapper>
       </SplitItem>
     </SplitWrapper>
+
+    <MobileKindWords>
+      <Link to="kind-words">More kind Words ></Link>
+    </MobileKindWords>
 
     <Logos />
 
