@@ -22,6 +22,15 @@ const KindWords = () => (
       <GridItem>
         <TextWrapper>
           <blockquote>
+            <p>"I always thought that Deb Khan was our secret weapon, giving us the edge over our competitors and helping us win work. I’m loathe to give her a good review in case everyone else finds out how completely brilliant she is."</p>
+            <cite>Annalie Riches<br />Founder, Mikhail Riches</cite>
+          </blockquote>
+        </TextWrapper>
+      </GridItem>
+
+      <GridItem>
+        <TextWrapper>
+          <blockquote>
             <p>"Deb has been a fun and trusted partner for 3 years now. During this time she has helped us double the size of our company, dramatically improve our pitch win rate, and hugely improved the professional skills of our team. Deb has a brilliant way of understanding your narrative and how this can clarify the direction of your business. She is also very in tune with how to manage creativity which for us as an architecture practice is invaluable. I cannot recommend her highly enough she has transformed our work!"</p>
             <cite>Jerry Tate<br />Partner, Tate Harmer LLP</cite>
           </blockquote>
