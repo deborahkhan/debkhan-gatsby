@@ -89,13 +89,13 @@ const IndexPage = ( { data } ) => (
 
       <GridItem>
         <TextWrapper>
-          <p>Supported the top global creative agency Mother to help their teams be more productive, creative and effective </p>
+          <p>Supported the top global creative agency Mother to help their teams be more productive, creative and effective</p>
         </TextWrapper>
       </GridItem>
 
       <GridItem>
         <TextWrapper>
-          <p>Steered Parkinson’s UK to lead with rigour and purpose though a change management programme</p>
+          <p>Steered Parkinson’s UK to lead with rigour and purpose through a change programme</p>
         </TextWrapper>
       </GridItem>
 
@@ -113,13 +113,13 @@ const IndexPage = ( { data } ) => (
 
       <GridItem>
         <TextWrapper>
-          <p>Steered Mikhail Riches - a design driven architecture practice to win The Stirling Prize - awarded for the first 100% council house project in history</p>
+          <p>Taken a 3 day week global role as VP Culture at Kano (present)</p>
         </TextWrapper>
       </GridItem>
 
       <GridItem>
         <TextWrapper>
-          <p>Taken a 3 day week global role as VP Culture at Kano (present)</p>
+          <p>Steered Mikhail Riches - a design driven architecture practice to win The Stirling Prize - awarded for the first 100% council house project in history</p>
         </TextWrapper>
       </GridItem>
 
