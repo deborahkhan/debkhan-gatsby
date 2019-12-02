@@ -163,28 +163,6 @@ const IndexPage = ( { data } ) => (
       
     </Grid>
 
-    <SubTitle>
-      <a rel="noopener noreferrer" target="_blank" href="https://www.amazon.co.uk/Shes-Back-Your-guide-returning/dp/1911583565">She’s Back</a>
-    </SubTitle>
-
-    <SplitWrapper margin>
-      <SplitItem>
-        <TextWrapper>
-          <p>A book I co-authored with Lisa Unwin that was Shortlisted for CMI Management Book of the Year 2019.</p>
-          <BlockQuoteMargin><p>“A must have guide to get more women back into the workplace.” <cite>- Arianna Huffington</cite></p></BlockQuoteMargin>
-          <p>Women's careers twist and turn. Women step back or step away for so many reasons. Then, let's face it, returning is tough.</p>
-          <p>Whether you are coming back after a break, or looking to ramp up a level, this book is an essential guide and helps you succeed.</p>
-          <p>You'll learn the truth about how the recruitment market really works; how to craft a narrative that explains your value; mobilise a network to support your ambitions and find work that will work for you.</p>
-        </TextWrapper>
-      </SplitItem>
-      <SplitItem flexHeight>
-        <SplitImg
-          fluid={data.imgShesBack.childImageSharp.fluid}
-          alt="Shes Back"
-        />
-      </SplitItem>
-    </SplitWrapper>
-
     <TextSplit>
       <SubTitle>
         <Link to="kind-words">Kind Words</Link>
@@ -217,6 +195,28 @@ const IndexPage = ( { data } ) => (
     <MobileKindWords>
       <Link to="kind-words">More kind Words ></Link>
     </MobileKindWords>
+
+    <SubTitle>
+      <a rel="noopener noreferrer" target="_blank" href="https://www.amazon.co.uk/Shes-Back-Your-guide-returning/dp/1911583565">She’s Back</a>
+    </SubTitle>
+
+    <SplitWrapper margin>
+      <SplitItem>
+        <TextWrapper>
+          <p>A book I co-authored with Lisa Unwin that was Shortlisted for CMI Management Book of the Year 2019.</p>
+          <BlockQuoteMargin><p>“A must have guide to get more women back into the workplace.” <cite>- Arianna Huffington</cite></p></BlockQuoteMargin>
+          <p>Women's careers twist and turn. Women step back or step away for so many reasons. Then, let's face it, returning is tough.</p>
+          <p>Whether you are coming back after a break, or looking to ramp up a level, this book is an essential guide and helps you succeed.</p>
+          <p>You'll learn the truth about how the recruitment market really works; how to craft a narrative that explains your value; mobilise a network to support your ambitions and find work that will work for you.</p>
+        </TextWrapper>
+      </SplitItem>
+      <SplitItem flexHeight>
+        <SplitImg
+          fluid={data.imgShesBack.childImageSharp.fluid}
+          alt="Shes Back"
+        />
+      </SplitItem>
+    </SplitWrapper>    
 
     <Logos />
 
